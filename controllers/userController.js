@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt')
 
 class UserController {
     /// метод для регистрации пользователей
-    async create(req, res) {
+    async create(req, res) { 
         try {
             /// вовод из "body" переменных
             const {name, lastname, email, password} = req.body
