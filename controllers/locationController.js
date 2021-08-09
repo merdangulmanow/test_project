@@ -4,7 +4,7 @@ const { Op } = require('sequelize');
 class LocationController {
     async create(req, res) {
         /// метод для передачи геоданных определенного пользователья
-        try {
+        try { 
             ///  вывод "userId" из параметров
             const {userId} = req.params
             ///  вывод долготы и широты из тела запроса
